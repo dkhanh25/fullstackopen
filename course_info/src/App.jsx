@@ -39,7 +39,11 @@ const App = () => {
   const part3 = 'State of a component'
   const exercises3 = 14
   var total = exercises1 + exercises2 + exercises3
+  const t = [1, -1, -3]
+  const t2 = t.concat(5,6)
 
+  console.log(t)
+  console.log(t2)
   return (
     <div>
       <Header course={course} />
